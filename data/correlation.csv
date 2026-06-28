@@ -1,0 +1,231 @@
+made_in,found_in,count,same,found_in_uk
+United Kingdom,United Kingdom,2531,True,True
+Italy,Italy,1667,True,False
+Italy,United Kingdom,1366,False,True
+Greece,Greece,1230,True,False
+Cyprus,Cyprus,764,True,False
+Greece,Italy,625,False,False
+Germany,United Kingdom,471,False,True
+Italy,Spain,315,False,False
+China,China,292,True,False
+Egypt,Egypt,267,True,False
+Turkey,Turkey,188,True,False
+Iran,Iran,184,True,False
+Morocco/Algeria,Morocco,180,False,False
+France,United Kingdom,168,False,True
+Afghanistan,Afghanistan,116,True,False
+Greece,Egypt,100,False,False
+India,India,99,True,False
+Greece,Cyprus,90,False,False
+Iraq,Iraq,82,True,False
+Greece,Libya,62,False,False
+Italy,Greece,61,False,False
+Pakistan,Pakistan,60,True,False
+Libya,Libya,58,True,False
+Japan,Japan,53,True,False
+France,France,48,True,False
+Korea,Korea,41,True,False
+Egypt,Cyprus,33,False,False
+Syria,Syria,31,True,False
+Germany,France,30,False,False
+Mexico,Mexico,30,True,False
+Peru,Peru,30,True,False
+Egypt,Italy,27,False,False
+Iran,Iraq,27,False,False
+Palestine,Palestine,26,True,False
+Italy,Libya,26,False,False
+Turkey,Greece,25,False,False
+Italy,France,19,False,False
+Greece,Turkey,18,False,False
+Tunisia,Tunisia,17,True,False
+Spain,Spain,16,True,False
+Turkey,Egypt,15,False,False
+Germany,Germany,15,True,False
+Middle East (unspecified),Iraq,14,False,False
+Turkey,United Kingdom,13,False,True
+Ukraine,Italy,11,False,False
+Egypt,Greece,11,False,False
+Syria,Cyprus,10,False,False
+Spain,United Kingdom,10,False,True
+China,Iran,10,False,False
+Iraq,Sri Lanka,9,False,False
+Turkey,Ukraine,9,False,False
+Yemen,Yemen,9,True,False
+Israel,Lebanon,8,False,False
+Sri Lanka,Sri Lanka,8,True,False
+Africa (unspecified),United Kingdom,8,False,True
+Ireland,Ireland,8,True,False
+France,Germany,8,False,False
+United Kingdom,Germany,8,False,False
+Iran,China,7,False,False
+Cyprus,Egypt,7,False,False
+Iraq,Iran,7,False,False
+Indonesia,Indonesia,7,True,False
+Italy,India,7,False,False
+Egypt,Syria,6,False,False
+Unidentified/ambiguous,Spain,6,False,False
+Italy,Syria,6,False,False
+Nepal,Nepal,6,True,False
+Italy,Cyprus,6,False,False
+Nigeria,Nigeria,6,True,False
+Cyprus,Turkey,6,False,False
+Cyprus,Israel,5,False,False
+Syria,Greece,5,False,False
+Italy,Turkey,5,False,False
+France,India,5,False,False
+Egypt,Sudan,5,False,False
+Ethiopia,Yemen,5,False,False
+Spain,Egypt,5,False,False
+Croatia,United Kingdom,5,False,True
+India,Pakistan,5,False,False
+Afghanistan,Iran,5,False,False
+Korea,South Korea,4,False,False
+Ukraine,Ukraine,4,True,False
+Italy,Egypt,4,False,False
+Asia (unspecified),China,4,False,False
+India,Tibet (China),4,False,False
+Asia (unspecified),Iraq,4,False,False
+Cyprus,Greece,4,False,False
+Greece,United Kingdom,4,False,True
+Turkey,Iraq,4,False,False
+Greece,Syria,4,False,False
+Tunisia,Italy,4,False,False
+Turkey,Italy,4,False,False
+Egypt,Israel/Palestine,3,False,False
+Turkey,Libya,3,False,False
+Yemen,Israel,3,False,False
+Syria,Italy,3,False,False
+Levant region (Syria/Lebanon/Israel/Palestine/Jordan),Israel/Palestine,3,False,False
+Turkey,Cyprus,3,False,False
+Israel/Palestine,Israel/Palestine,3,True,False
+Multiple (Byzantine Empire),Greece,3,False,False
+Italy,Tunisia,3,False,False
+Levant region (Syria/Lebanon/Israel/Palestine/Jordan),Greece,3,False,False
+Scandinavia (unspecified),Germany,3,False,False
+Tanzania,Tanzania,3,True,False
+Tibet (China),Tibet (China),3,True,False
+Cyprus,Lebanon,3,False,False
+Asia (unspecified),Iran,3,False,False
+India/Pakistan,India/Pakistan,3,True,False
+Syria,Palestine,3,False,False
+Pakistan,Afghanistan,3,False,False
+Syria,Egypt,3,False,False
+Mediterranean region (unspecified),United Kingdom,3,False,True
+Levant region (Syria/Lebanon/Israel/Palestine/Jordan),Cyprus,2,False,False
+Greece,Kosovo,2,False,False
+Egypt,Lebanon,2,False,False
+Greece,North Macedonia,2,False,False
+Greece,France,2,False,False
+Sudan,Libya,2,False,False
+China,Cyprus,2,False,False
+Israel,Israel,2,True,False
+India,Afghanistan,2,False,False
+Tunisia,Croatia,2,False,False
+Iran,Afghanistan,2,False,False
+Guatemala,Guatemala,2,True,False
+Syria/Turkey,Syria/Turkey,2,True,False
+Tunisia,Egypt,2,False,False
+Germany,Sweden,2,False,False
+India,Iran,2,False,False
+South Asia (unspecified),Iran,2,False,False
+Africa (unspecified),Iran,2,False,False
+Iraq,Egypt,2,False,False
+China,Indonesia,2,False,False
+Egypt,Iraq,2,False,False
+Turkey,Syria,2,False,False
+Serbia,United Kingdom,2,False,True
+China,Japan,2,False,False
+Syria,Turkey,2,False,False
+Iraq,India,2,False,False
+India,Indonesia,2,False,False
+Italy,Germany,2,False,False
+Scandinavia (unspecified),United Kingdom,2,False,True
+Belgium,United Kingdom,2,False,True
+Ethiopia,Ethiopia,2,True,False
+USA/Canada (unspecified),USA,1,False,False
+Iran,Pakistan,1,False,False
+India,Iraq,1,False,False
+India/Pakistan,Iraq,1,False,False
+United Kingdom,Iraq,1,False,False
+Greece,Lebanon,1,False,False
+Iraq,Syria,1,False,False
+Syria,Iraq,1,False,False
+Iraq,United Arab Emirates,1,False,False
+Cyprus,Jordan,1,False,False
+Iran,Syria,1,False,False
+Bahrain,Iraq,1,False,False
+Bahrain,Cyprus,1,False,False
+Asia (unspecified),Italy,1,False,False
+Iraq,Italy,1,False,False
+Egypt,Turkey,1,False,False
+Greece,Tajikistan/Afghanistan,1,False,False
+Greece,Iraq,1,False,False
+Turkey,Malta,1,False,False
+Libya,Greece,1,False,False
+Greece,Ukraine,1,False,False
+Libya,Tunisia,1,False,False
+Greece,Iran,1,False,False
+Egypt,Iran,1,False,False
+Italy,Ukraine,1,False,False
+Caucasus (unspecified),Iran,1,False,False
+Iran,Turkey/Syria,1,False,False
+Greece,Turkey/Syria,1,False,False
+North Macedonia/Greece,Greece,1,False,False
+Syria,Turkey/Syria,1,False,False
+Greece,Tajikistan,1,False,False
+Levant region (Syria/Lebanon/Israel/Palestine/Jordan),Lebanon,1,False,False
+Tunisia,Germany,1,False,False
+Balkans (unspecified),Serbia,1,False,False
+Italy,Bulgaria,1,False,False
+Bulgaria,Serbia,1,False,False
+Turkey,France,1,False,False
+Turkey,Sweden,1,False,False
+Spain,France,1,False,False
+Serbia,Romania,1,False,False
+Germany,Turkey,1,False,False
+Serbia,Serbia,1,True,False
+Asia (unspecified),Kazakhstan/Central Asia,1,False,False
+Palestine,Israel,1,False,False
+Sudan,Sudan,1,True,False
+Turkey,Croatia,1,False,False
+Levant region (Syria/Lebanon/Israel/Palestine/Jordan),Syria,1,False,False
+Jordan,Jordan,1,True,False
+Italy,Mediterranean region (unspecified),1,False,False
+Africa (unspecified),Tunisia,1,False,False
+Lebanon,Lebanon,1,True,False
+China,North Korea,1,False,False
+China,Iraq,1,False,False
+Unidentified/ambiguous,Sweden,1,False,False
+Afghanistan,Pakistan,1,False,False
+China,Central Asia (unspecified),1,False,False
+Uzbekistan,Estonia,1,False,False
+Turkmenistan,Latvia,1,False,False
+Kyrgyzstan,China,1,False,False
+Iraq,United Kingdom,1,False,True
+United Kingdom,Ireland,1,False,False
+India,India/Pakistan,1,False,False
+Korea,China,1,False,False
+Mexico,Honduras,1,False,False
+India,Bangladesh,1,False,False
+India/Pakistan,Afghanistan,1,False,False
+Syria,Lebanon,1,False,False
+Mexico,Ecuador,1,False,False
+France,Germany/Netherlands,1,False,False
+Myanmar,Iran,1,False,False
+Iran,Egypt,1,False,False
+Iran,India,1,False,False
+Pakistan,India,1,False,False
+Morocco,United Kingdom,1,False,True
+Sweden,Germany,1,False,False
+China,Indonesia/Malaysia,1,False,False
+Chile,Chile,1,True,False
+Italy,Sudan,1,False,False
+Russia,Russia,1,True,False
+Iran,United Kingdom,1,False,True
+Scandinavia (unspecified),Sweden,1,False,False
+United Kingdom,Italy,1,False,False
+China,Tibet (China),1,False,False
+Switzerland,Switzerland,1,True,False
+China,Syria,1,False,False
+India,Yemen,1,False,False
+Egypt,Tanzania,1,False,False

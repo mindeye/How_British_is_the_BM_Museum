@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "Rosetta Stone",
+    "origin": "Egypt",
+    "date": "196 BC",
+    "description": "The key that unlocked ancient Egyptian hieroglyphs.",
+    "room": "Room 4",
+    "british": false,
+    "contested": false,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Rosetta_Stone.JPG/400px-Rosetta_Stone.JPG"
+  },
+  {
+    "id": 2,
+    "name": "Sophilos Vase",
+    "origin": "Greece",
+    "date": "c. 580 BC",
+    "description": "One of the earliest signed works in Western art.",
+    "room": "Room 13",
+    "british": false,
+    "contested": false,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Sophilos_dinos_BM_1971.jpg/400px-Sophilos_dinos_BM_1971.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Parthenon Sculptures",
+    "origin": "Greece",
+    "date": "438–432 BC",
+    "description": "Greece has formally requested their return since 1983.",
+    "room": "Room 18",
+    "british": false,
+    "contested": true,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Elgin_Marbles_frieze_east_I.jpg/400px-Elgin_Marbles_frieze_east_I.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Crouching Venus",
+    "origin": "Italy (Roman)",
+    "date": "2nd century AD",
+    "description": "A Roman copy of a lost Greek original of Aphrodite.",
+    "room": "Room 23",
+    "british": false,
+    "contested": false,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Crouching_Venus_-_British_Museum.jpg/400px-Crouching_Venus_-_British_Museum.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Bust of Ramesses the Great",
+    "origin": "Egypt",
+    "date": "1279–1213 BC",
+    "description": "A colossal 7.5-tonne granite bust from ancient Thebes.",
+    "room": "Room 4",
+    "british": false,
+    "contested": false,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Younger_Memnon_Ramesses_II_bust.jpg/400px-Younger_Memnon_Ramesses_II_bust.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Ife Head",
+    "origin": "Nigeria",
+    "date": "1300–early 1400s",
+    "description": "Brass head of an Ooni, sacred king of the Kingdom of Ife.",
+    "room": "Room 25",
+    "british": false,
+    "contested": false,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ife-Benin_head.jpg/400px-Ife-Benin_head.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Tree of Life",
+    "origin": "Mozambique",
+    "date": "2004",
+    "description": "Made from decommissioned civil war weapons by four Mozambican artists.",
+    "room": "Room 25",
+    "british": false,
+    "contested": false,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Tree_of_Life_-_British_Museum.jpg/400px-Tree_of_Life_-_British_Museum.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Akan Drum",
+    "origin": "Ghana",
+    "date": "18th century",
+    "description": "The earliest African-American object in the museum.",
+    "room": "Room 26",
+    "british": false,
+    "contested": false,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Akan_drum_Virginia_BM.jpg/400px-Akan_drum_Virginia_BM.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Aztec Serpent",
+    "origin": "Mexico",
+    "date": "1400–1521",
+    "description": "A double-headed serpent made from 2,000 pieces of turquoise.",
+    "room": "Room 27",
+    "british": false,
+    "contested": false,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Double-headed_serpent_pectoral%2C_Aztec%2C_Mexico%2C_1400-1521_CE%2C_turquoise%2C_red_spondylus_shell%2C_white_conch_shell%2C_pine_wood_-_British_Museum_-_London%2C_England_-_DSC04085.jpg/400px-Double-headed_serpent_pectoral%2C_Aztec%2C_Mexico%2C_1400-1521_CE%2C_turquoise%2C_red_spondylus_shell%2C_white_conch_shell%2C_pine_wood_-_British_Museum_-_London%2C_England_-_DSC04085.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Piranesi Vase",
+    "origin": "Italy (Roman)",
+    "date": "2nd century AD, restored 18th c.",
+    "description": "A 2.7m marble vase assembled from classical fragments.",
+    "room": "Room 1",
+    "british": false,
+    "contested": false,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/British_Museum_-_Piranesi_vase.jpg/400px-British_Museum_-_Piranesi_vase.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Haida House Pole",
+    "origin": "Canada",
+    "date": "c. 1850",
+    "description": "A 15m totem pole from the Haida village of Kayang, BC.",
+    "room": "Great Court",
+    "british": false,
+    "contested": false,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/British_Museum_-_Great_Court_Totem_Pole.jpg/400px-British_Museum_-_Great_Court_Totem_Pole.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Hoa Hakananai'a",
+    "origin": "Rapa Nui (Easter Island)",
+    "date": "c. 1000–1200 AD",
+    "description": "A basalt moai — a living face of the ancestors. Return formally requested 2018.",
+    "room": "Room 24",
+    "british": false,
+    "contested": true,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Hoa_Hakananai%27a.jpg/400px-Hoa_Hakananai%27a.jpg"
+  }
+]

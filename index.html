@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How British is the British Museum?</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<!-- ─── NAV ─── -->
+<nav>
+  <span class="nav-title">How British is the British Museum?</span>
+  <ul class="nav-links">
+    <li><a href="#hero">Intro</a></li>
+    <li><a href="#overview">Collection</a></li>
+    <li><a href="#world">Geography</a></li>
+    <li><a href="#uk">UK share</a></li>
+    <li><a href="#highlights">Highlights</a></li>
+    <li><a href="#contested">Contested</a></li>
+    <li><a href="#findspot">Findspot</a></li>
+    <li><a href="#correlation">Correlation</a></li>
+    <li><a href="#method">Method</a></li>
+  </ul>
+</nav>
+
+<!-- ─── HERO ─── -->
+<section id="hero" class="section" style="padding-top:100px; min-height:100vh; display:grid; grid-template-columns:1fr 1fr; align-items:center; gap:clamp(32px,5vw,80px);">
+
+  <div>
+    <span class="eyebrow">A data investigation · British Museum · 45,185 objects on display</span>
+    <h1>Only <em>1 in 5</em><br>exhibits is British</h1>
+    <div class="hero-rule"></div>
+    <p class="lead">We read the origin of every single object currently on display at the British Museum — all 45,185 of them. Here is what the data says about whose heritage fills these galleries.</p>
+    <div class="hero-stats">
+      <div>
+        <div class="stat-num">45,185</div>
+        <div class="stat-lbl">Objects on display</div>
+      </div>
+      <div>
+        <div class="stat-num">209</div>
+        <div class="stat-lbl">Countries of origin</div>
+      </div>
+      <div>
+        <div class="stat-num">80.9%</div>
+        <div class="stat-lbl">Non-British (known origin)</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BM Building illustration -->
+  <div class="hero-building">
+    <svg id="bm-svg" viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:400px;">
+      <defs>
+        <filter id="soft-glow">
+          <feGaussianBlur stdDeviation="4" result="b"/>
+          <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+      </defs>
+      <!-- steps -->
+      <rect x="30"  y="290" width="340" height="10" fill="rgba(26,22,20,0.07)"/>
+      <rect x="50"  y="280" width="300" height="10" fill="rgba(26,22,20,0.07)"/>
+      <rect x="70"  y="270" width="260" height="10" fill="rgba(26,22,20,0.07)"/>
+      <!-- entablature -->
+      <rect x="60"  y="120" width="280" height="18" fill="rgba(26,22,20,0.1)"/>
+      <rect x="55"  y="138" width="290" height="10" fill="rgba(26,22,20,0.07)"/>
+      <!-- pediment -->
+      <polygon points="200,32 60,120 340,120"
+        fill="rgba(26,22,20,0.04)" stroke="rgba(26,22,20,0.18)" stroke-width="1.5"/>
+      <!-- pediment texture -->
+      <g stroke="rgba(26,22,20,0.05)" stroke-width="1">
+        <line x1="140" y1="118" x2="165" y2="68"/>
+        <line x1="160" y1="118" x2="180" y2="52"/>
+        <line x1="180" y1="118" x2="196" y2="40"/>
+        <line x1="200" y1="118" x2="200" y2="38"/>
+        <line x1="220" y1="118" x2="204" y2="40"/>
+        <line x1="240" y1="118" x2="220" y2="52"/>
+        <line x1="260" y1="118" x2="235" y2="68"/>
+      </g>
+      <!-- col 1 (solid stone) -->
+      <rect x="78"  y="148" width="28" height="122" fill="#C8C0B0" rx="1"/>
+      <rect x="73"  y="145" width="38" height="6"   fill="#C0B8A8"/>
+      <rect x="73"  y="268" width="38" height="6"   fill="#C0B8A8"/>
+      <!-- col 2 (solid stone) -->
+      <rect x="134" y="148" width="28" height="122" fill="#C8C0B0" rx="1"/>
+      <rect x="129" y="145" width="38" height="6"   fill="#C0B8A8"/>
+      <rect x="129" y="268" width="38" height="6"   fill="#C0B8A8"/>
+      <!-- col 3 — BRITISH (cream, distinct but no glow) -->
+      <rect x="186" y="148" width="28" height="122" fill="#E6E0D4" rx="1"/>
+      <rect x="181" y="145" width="38" height="6"   fill="#DFD8CC"/>
+      <rect x="181" y="268" width="38" height="6"   fill="#DFD8CC"/>
+      <!-- col 4 (solid stone) -->
+      <rect x="238" y="148" width="28" height="122" fill="#C8C0B0" rx="1"/>
+      <rect x="233" y="145" width="38" height="6"   fill="#C0B8A8"/>
+      <rect x="233" y="268" width="38" height="6"   fill="#C0B8A8"/>
+      <!-- col 5 (solid stone) -->
+      <rect x="290" y="148" width="28" height="122" fill="#C8C0B0" rx="1"/>
+      <rect x="285" y="145" width="38" height="6"   fill="#C0B8A8"/>
+      <rect x="285" y="268" width="38" height="6"   fill="#C0B8A8"/>
+      <!-- fluting on stone cols -->
+      <g stroke="rgba(26,22,20,0.15)" stroke-width="0.5">
+        <line x1="84"  y1="150" x2="84"  y2="268"/><line x1="90"  y1="150" x2="90"  y2="268"/><line x1="96"  y1="150" x2="96"  y2="268"/>
+        <line x1="140" y1="150" x2="140" y2="268"/><line x1="146" y1="150" x2="146" y2="268"/><line x1="152" y1="150" x2="152" y2="268"/>
+        <line x1="244" y1="150" x2="244" y2="268"/><line x1="250" y1="150" x2="250" y2="268"/><line x1="256" y1="150" x2="256" y2="268"/>
+        <line x1="296" y1="150" x2="296" y2="268"/><line x1="302" y1="150" x2="302" y2="268"/><line x1="308" y1="150" x2="308" y2="268"/>
+      </g>
+      <!-- ground line -->
+      <line x1="20" y1="300" x2="380" y2="300" stroke="rgba(26,22,20,0.12)" stroke-width="1"/>
+    </svg>
+    <p class="building-caption"><span>1 in 5</span> objects on display is British</p>
+  </div>
+
+  <div class="scroll-hint">↓ scroll</div>
+</section>
+
+<!-- ─── SECTION 01: FORCE LAYOUT ─── -->
+<section id="overview" class="section">
+  <div class="inner">
+    <span class="eyebrow reveal">01 — The full collection</span>
+    <h2 class="reveal">Every object as a dot, coloured<br>by <em>where it was made</em></h2>
+    <p class="lead reveal">Each dot represents 10 objects. The UK cluster sits in the centre. Toggle to reveal how small the British share really is relative to the whole.</p>
+
+    <div class="toggle-row reveal">
+      <span class="t-lbl active" id="lbl-all">All countries</span>
+      <div class="toggle-btn" id="force-toggle">
+        <div class="t-knob"></div>
+      </div>
+      <span class="t-lbl" id="lbl-uk">British only</span>
+      <span class="pill">1 dot = 10 objects</span>
+      <span class="pill">Total: 45,185</span>
+    </div>
+
+    <div id="force-wrap" class="reveal" style="position:relative; width:100%;">
+      <svg id="force-svg" style="display:block; width:100%;"></svg>
+    </div>
+
+    <div class="dot-legend reveal" id="dot-legend"></div>
+  </div>
+</section>
+
+<!-- ─── SECTION 02: WORLD MAP ─── -->
+<section id="world" class="section">
+  <div class="inner">
+    <span class="eyebrow reveal">02 — Geography of the collection</span>
+    <h2 class="reveal">The world's objects,<br>in <em>one building</em></h2>
+    <p class="lead reveal">Among the 26,239 objects with a known production place. Italy, Greece, and China dwarf everyone else — including Britain.</p>
+
+    <div id="map-container" class="reveal" style="position:relative;">
+      <svg id="map-svg" width="100%"></svg>
+    </div>
+    <div id="map-tip"></div>
+
+    <div style="margin-top:48px;" class="reveal">
+      <span class="eyebrow" style="margin-bottom:16px;">Top 15 countries by objects on display</span>
+      <div id="bar-chart"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── SECTION 03: UK NATIONS ─── -->
+<section id="uk" class="section">
+  <div class="inner">
+    <span class="eyebrow reveal">03 — Inside the British share</span>
+    <h2 class="reveal"><em>England</em> accounts for<br>nearly all of the UK's share</h2>
+    <p class="lead reveal">The 19.1% British figure is not spread evenly across the four nations. Scotland, Wales, and Northern Ireland barely register.</p>
+
+    <div class="reveal">
+      <span class="big-pct">91.7%</span>
+      <p style="font-size:16px; color:var(--stone); font-style:italic; max-width:44ch;">of the UK's on-display objects were made in England — not Britain broadly.</p>
+    </div>
+
+    <div class="nation-grid reveal">
+      <div class="nation-card">
+        <div class="nc-name">England</div>
+        <div class="nc-num" style="color:var(--ink);">4,600</div>
+        <div class="nc-pct">91.7% of UK total</div>
+      </div>
+      <div class="nation-card">
+        <div class="nc-name">Ambiguous UK</div>
+        <div class="nc-num" style="color:var(--stone);">384</div>
+        <div class="nc-pct">7.7% — tagged "British Isles"</div>
+      </div>
+      <div class="nation-card">
+        <div class="nc-name">Scotland</div>
+        <div class="nc-num" style="color:var(--stone);">16</div>
+        <div class="nc-pct">0.3% of UK total</div>
+      </div>
+      <div class="nation-card">
+        <div class="nc-name">Wales + N. Ireland</div>
+        <div class="nc-num" style="color:var(--stone);">14</div>
+        <div class="nc-pct">0.3% of UK total</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── SECTION 04: HIGHLIGHTS ─── -->
+<section id="highlights" class="section">
+  <div class="inner">
+    <span class="eyebrow reveal">04 — The museum's own highlights</span>
+    <h2 class="reveal">Of the 12 objects the museum<br>calls unmissable — <em>0 are British</em></h2>
+    <p class="lead reveal">The British Museum's own curators chose which objects visitors should not miss. Every single one comes from outside the UK. The data is from the museum's own blog.</p>
+
+    <div class="highlights-intro reveal">
+      <div>
+        <div class="highlights-zero">0/12</div>
+        <div class="highlights-zero-label">highlights are<br>British in origin</div>
+      </div>
+      <div class="callout" style="margin:0; max-width:44ch;">
+        <p>"Not one of the museum's own 'must-see' objects was made in Britain. The collection's most celebrated pieces come from Egypt, Greece, Nigeria, Mexico, Easter Island."</p>
+        <small>Provisional text — editorial copy to be written by [colleague name]</small>
+      </div>
+    </div>
+
+    <div class="highlights-grid reveal" id="highlights-grid"></div>
+    <p class="chart-note reveal" style="margin-top:16px;">
+      Source: britishmuseum.org/blog/12-things-not-miss-british-museum ·
+      <span style="color:var(--terra);">■</span> Contested = formal repatriation requests made
+    </p>
+  </div>
+</section>
+
+<!-- ─── SECTION 05a: PARTHENON ─── -->
+<section id="contested" class="contested-section">
+  <span class="provisional" style="display:block; margin-bottom:32px; max-width:var(--max); margin-left:auto; margin-right:auto; padding:0 var(--pad);">
+    ⚠ Provisional — editorial text to be written
+  </span>
+
+  <div class="contested-object">
+    <div class="contested-img-wrap">
+      <img src="https://www.britishmuseum.org/sites/default/files/styles/uncropped_large/public/2022-07/Parthenon-east-pediment-1000x782.jpg"
+           alt="Parthenon Sculptures" loading="lazy">
+      <div class="contested-tag">Contested</div>
+    </div>
+
+    <div class="contested-text">
+      <span class="eyebrow">05a — Contested highlight</span>
+      <h2>The Parthenon<br><em>Sculptures</em></h2>
+
+      <div class="fact-row"><span class="fact-key">Origin</span><span class="fact-val">Athens, Greece — 438–432 BC</span></div>
+      <div class="fact-row"><span class="fact-key">Location</span><span class="fact-val">Room 18, British Museum</span></div>
+      <div class="fact-row"><span class="fact-key">How acquired</span><span class="fact-val">Removed by Lord Elgin, 1801–1812</span></div>
+      <div class="fact-row"><span class="fact-key">Status</span><span class="fact-val">Greece has formally requested return since 1983</span></div>
+
+      <div class="quote-block">
+        <p>"[Provisional] A quote from the Greek government, a Rapa Nui representative, or a relevant cultural authority will appear here. This is placeholder text."</p>
+        <cite>— Source to be confirmed by [colleague name]</cite>
+      </div>
+
+      <p style="font-size:14px; color:var(--stone); font-style:italic; line-height:1.65;">
+        [Provisional] The broader context of the Parthenon Sculptures debate — the legal arguments, the museum's position, and what reunification would mean — will be written here. Approximately 150–200 words.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ─── SECTION 05b: HOA HAKANANAI'A ─── -->
+<section class="contested-section" style="border-top: 1px solid var(--rule);">
+  <div class="contested-object reverse" style="max-width:var(--max); margin:0 auto; padding:0 var(--pad);">
+    <div class="contested-img-wrap">
+      <img src="https://www.britishmuseum.org/sites/default/files/styles/uncropped_large/public/2020-09/Hoa_Hakananai%E2%80%99a_Room%2024_British_Museum_2_0.jpg"
+           alt="Hoa Hakananai'a" loading="lazy">
+      <div class="contested-tag">Contested</div>
+    </div>
+
+    <div class="contested-text">
+      <span class="eyebrow">05b — Contested highlight</span>
+      <h2>Hoa<br><em>Hakananai'a</em></h2>
+
+      <div class="fact-row"><span class="fact-key">Origin</span><span class="fact-val">Rapa Nui (Easter Island), c. 1000–1200 AD</span></div>
+      <div class="fact-row"><span class="fact-key">Location</span><span class="fact-val">Room 24, British Museum</span></div>
+      <div class="fact-row"><span class="fact-key">How acquired</span><span class="fact-val">Taken by HMS Topaze crew, 1868</span></div>
+      <div class="fact-row"><span class="fact-key">Status</span><span class="fact-val">Rapa Nui formally requested return, 2018</span></div>
+
+      <div class="quote-block">
+        <p>"[Provisional] A quote from Rapa Nui representatives or the Chilean government regarding the statue's return will appear here. This is placeholder text."</p>
+        <cite>— Source to be confirmed by [colleague name]</cite>
+      </div>
+
+      <p style="font-size:14px; color:var(--stone); font-style:italic; line-height:1.65;">
+        [Provisional] The story of Hoa Hakananai'a — what it means to the Rapa Nui people, how it left the island, and what its return would signify — will be written here. Approximately 150–200 words.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ─── SECTION 06: FINDSPOT ─── -->
+<section id="findspot" class="section">
+  <div class="inner">
+    <span class="eyebrow reveal">06 — Where were they found?</span>
+    <h2 class="reveal">The museum's <em>acquisition geography</em></h2>
+    <p class="lead reveal">Beyond where objects were made, we looked at where they were physically found or excavated. This is the geography of the museum's collecting history — distinct from, but related to, the production place data.</p>
+
+    <div class="callout reveal">
+      <p>"46% of all on-display objects have no recorded production place. For every object — with or without a known origin — we asked: where were you found?"</p>
+      <small>Findspot ≠ production place · these are kept as separate datasets throughout</small>
+    </div>
+
+    <div class="panel-pair reveal">
+      <div class="panel">
+        <div class="panel-lbl">Objects with a findspot</div>
+        <div class="panel-num" style="color:var(--gold);">26,467</div>
+        <div class="panel-note">58.6% of all on-display objects. 97.7% of these successfully mapped to a country.</div>
+      </div>
+      <div class="panel" style="border-left:none;">
+        <div class="panel-lbl">No findspot recorded</div>
+        <div class="panel-num" style="color:var(--stone);">18,894</div>
+        <div class="panel-note">No geographic information of any kind in the museum's catalogue for these objects.</div>
+      </div>
+    </div>
+
+    <div class="two-col reveal" style="margin-top:48px; gap:clamp(24px,4vw,56px);">
+      <div>
+        <span class="eyebrow" style="margin-bottom:16px;">Top 15 countries by findspot (all objects)</span>
+        <div id="findspot-bars"></div>
+      </div>
+      <div>
+        <div class="callout" style="margin-top:0;">
+          <p>"The UK leads findspot data with 7,351 objects — but this means objects were <strong>found</strong> in Britain, not necessarily made there. A Roman coin from Suffolk was minted in Rome."</p>
+          <small>Pre-1500 AD: real excavation sites · Post-1500 AD: often dealer / auction locations</small>
+        </div>
+        <p style="font-size:14px; color:var(--stone); font-style:italic; line-height:1.65; margin-top:24px;">
+          The UK's dominance of findspot data reflects the British Museum's vast collection of domestic archaeological material — Iron Age hoards, Roman-era finds, Anglo-Saxon burials — physically excavated from British soil. These are genuinely British objects. The remaining countries on the list largely reflect the museum's 19th and early 20th-century excavation programmes abroad.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── SECTION 07: CORRELATION ─── -->
+<section id="correlation" class="section">
+  <div class="inner">
+    <span class="eyebrow reveal">07 — Did objects ever leave home?</span>
+    <h2 class="reveal">Made here, found <em>there</em></h2>
+    <p class="lead reveal">For pre-1500 AD objects with both fields recorded. Where they were made vs where they were physically found. The distance between those two points is a story of trade, empire, and collection.</p>
+
+    <div class="panel-pair reveal">
+      <div class="panel">
+        <div class="panel-lbl">Never left home</div>
+        <div class="panel-num">65.8%</div>
+        <div class="panel-note">Made and found in the same country. The majority of ancient objects in this collection never crossed a border.</div>
+      </div>
+      <div class="panel" style="border-left:none;">
+        <div class="panel-lbl">Crossed a border</div>
+        <div class="panel-num" style="color:var(--terra);">34.2%</div>
+        <div class="panel-note">Made in one country, found in another. These objects have a travel history — intentional or otherwise.</div>
+      </div>
+    </div>
+
+    <div class="reveal" style="margin-top:40px;">
+      <span class="eyebrow" style="margin-bottom:16px;">Top 10 production countries × top 8 findspot countries (pre-1500 AD)</span>
+      <div id="corr-chart"></div>
+      <p class="chart-note" style="margin-top:14px;">
+        <span style="color:#A09585;">■</span> Stone = stayed in same country &nbsp;·&nbsp;
+        <span style="color:var(--gold);">■</span> Gold = found in UK &nbsp;·&nbsp;
+        <span style="color:#6E9EC8;">■</span> Blue = other cross-border flow &nbsp;·&nbsp;
+        Flow width = object count &nbsp;·&nbsp; Pre-1500 AD only
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ─── SECTION 08: METHODOLOGY ─── -->
+<section id="method" class="section">
+  <div class="inner">
+    <span class="eyebrow reveal">08 — How we did this</span>
+    <h2 class="reveal">Methodology</h2>
+
+    <div class="method-grid reveal">
+      <div>
+        <div class="meth-n">Source</div>
+        <div class="meth-t">British Museum's own API</div>
+        <div class="meth-b">Data pulled from britishmuseum.org/collection — the same system that powers their public search. Every on-display object's "Production place" field was read individually.</div>
+      </div>
+      <div>
+        <div class="meth-n">Country mapping</div>
+        <div class="meth-t">1,270 place names resolved</div>
+        <div class="meth-b">Every unique place string — from "Attica (Greece)" to "Stoke-on-Trent" — was mapped to a modern country. Zero entries left unmapped in the production place dataset.</div>
+      </div>
+      <div>
+        <div class="meth-n">Known gap</div>
+        <div class="meth-t">46% have no origin recorded</div>
+        <div class="meth-b">The museum itself has not filled in the production place field for nearly half of on-display objects. This is reported honestly throughout — never guessed at or estimated.</div>
+      </div>
+      <div>
+        <div class="meth-n">~7% overlap</div>
+        <div class="meth-t">Date-bucket boundary effect</div>
+        <div class="meth-b">The API caps results at 10,000 per query. Splitting retrieval into 11 date buckets means objects with fuzzy date ranges may appear in two buckets. Affects all countries equally.</div>
+      </div>
+      <div>
+        <div class="meth-n">45,185 vs ~80,000</div>
+        <div class="meth-t">The museum's own figures differ</div>
+        <div class="meth-b">The British Museum publicly states ~80,000 objects are on display. Our API search returned 45,185. The gap likely reflects incomplete digital records for some galleries.</div>
+      </div>
+      <div>
+        <div class="meth-n">Findspot</div>
+        <div class="meth-t">Always kept separate</div>
+        <div class="meth-b">Where objects were physically found is not the same as where they were made. The two datasets are never mixed — findspot is supplementary context, clearly labelled throughout.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── FOOTER ─── -->
+<footer>
+  <span class="ft">Data: British Museum collection API · Analysis: original research · 2024–25</span>
+  <span class="ft">Masters in Data Visualisation</span>
+</footer>
+
+<!-- ─── TOOLTIPS ─── -->
+<div id="dot-tip">
+  <div class="dt-c"></div>
+  <div class="dt-n"></div>
+  <div class="dt-l">objects on display</div>
+</div>
+
+<!-- ─── SCRIPTS (ES modules) ─── -->
+<script type="module" src="./js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,209 @@
+country,count,is_uk
+Italy,5654,False
+United Kingdom,5016,True
+China,3069,False
+Greece,2983,False
+Germany,983,False
+India,899,False
+France,862,False
+Cyprus,835,False
+Japan,610,False
+Iran,548,False
+Egypt,520,False
+Turkey,514,False
+Nigeria,295,False
+Iraq,193,False
+Afghanistan,176,False
+Korea,175,False
+Spain,161,False
+USA,147,False
+Morocco/Algeria,120,False
+Syria,115,False
+Mexico,114,False
+Netherlands,114,False
+Indonesia,109,False
+Pakistan,92,False
+DR Congo,87,False
+Morocco,84,False
+Tunisia,79,False
+Russia,72,False
+Switzerland,62,False
+Libya,52,False
+Asia (unspecified),50,False
+Ghana,49,False
+Peru,48,False
+Botswana,46,False
+Palestine,41,False
+Europe (unspecified),41,False
+Australia,36,False
+Tanzania,35,False
+New Zealand,35,False
+Canada,34,False
+Sri Lanka,31,False
+Ethiopia,31,False
+Sweden,31,False
+Belgium,29,False
+Austria,26,False
+Bulgaria,24,False
+USA/Canada (unspecified),23,False
+Malaysia,23,False
+Africa (unspecified),21,False
+Czech Republic,21,False
+Somalia,21,False
+Tibet (China),20,False
+South Africa,20,False
+Ukraine,19,False
+Sudan,19,False
+Israel,19,False
+Nepal,19,False
+Cameroon,19,False
+Denmark,18,False
+Portugal,17,False
+Yemen,16,False
+Ireland,16,False
+Mozambique,16,False
+India/Pakistan,15,False
+Middle East (unspecified),14,False
+Hungary,14,False
+Israel/Palestine,14,False
+Chile,14,False
+Uganda,14,False
+South Sudan,14,False
+Levant region (Syria/Lebanon/Israel/Palestine/Jordan),13,False
+Norway,13,False
+Unidentified/ambiguous,12,False
+Lebanon,11,False
+Uzbekistan,10,False
+South Korea,10,False
+Sierra Leone,10,False
+Algeria,10,False
+Croatia,9,False
+Unidentified/ambiguous code,9,False
+Scandinavia (unspecified),9,False
+Brazil,9,False
+Gabon,9,False
+Mali,9,False
+Romania,8,False
+Colombia,8,False
+Russia/USSR,8,False
+Guinea-Bissau,8,False
+Kenya,8,False
+Mediterranean region (unspecified),7,False
+Myanmar,7,False
+Tajikistan,7,False
+Zimbabwe,7,False
+Côte d'Ivoire,7,False
+Central African Republic,7,False
+Cuba,7,False
+Uzbekistan/Tajikistan,6,False
+Multiple (Byzantine Empire),6,False
+Tonga,6,False
+Serbia,6,False
+Poland,6,False
+Philippines,6,False
+Angola,6,False
+Somaliland,6,False
+Kiribati,6,False
+Vietnam,5,False
+Bolivia,5,False
+Brunei,5,False
+Lesotho,5,False
+Latvia,5,False
+Azerbaijan,4,False
+India/Bangladesh,4,False
+Southeast Asia (unspecified),4,False
+Guyana,4,False
+Thailand/Malaysia,4,False
+Oman,4,False
+North Macedonia,4,False
+Madagascar,4,False
+Senegal,4,False
+Albania,3,False
+Turkmenistan,3,False
+Guatemala,3,False
+Kyrgyzstan,3,False
+Solomon Islands,3,False
+South America (unspecified),3,False
+Singapore,3,False
+Namibia,3,False
+United Arab Emirates,3,False
+Czech Republic/Slovakia,3,False
+Finland,3,False
+Benin,3,False
+Zambia,3,False
+Chad,3,False
+Republic of Congo,3,False
+Bahrain,2,False
+North Macedonia/Greece,2,False
+Slovakia,2,False
+Syria/Turkey,2,False
+South Asia (unspecified),2,False
+Bangladesh,2,False
+Iran/Afghanistan,2,False
+Fiji,2,False
+Cook Islands,2,False
+Dominican Republic,2,False
+Unidentified/ambiguous (historic Islamic mint),2,False
+Poland/Czech Republic,2,False
+Indonesia/Malaysia,2,False
+Liberia,2,False
+Sahara region (unspecified),2,False
+Cape Verde,2,False
+Rwanda,2,False
+Niger,2,False
+Zimbabwe/Eswatini,2,False
+Malawi,2,False
+Caucasus (unspecified),1,False
+Libya/Lebanon,1,False
+Balkans (unspecified),1,False
+Jordan,1,False
+Serbia/Bulgaria,1,False
+Jamaica,1,False
+Dominica,1,False
+Germany/Russia,1,False
+Pitcairn Islands (UK),1,False
+Papua New Guinea/Indonesia,1,False
+St Kitts and Nevis,1,False
+French Polynesia,1,False
+Papua New Guinea,1,False
+Mauritius,1,False
+Barbados,1,False
+"South America (Amazonia, unspecified)",1,False
+Taiwan,1,False
+Armenia,1,False
+Grenada,1,False
+Burundi,1,False
+Cambodia,1,False
+São Tomé and Príncipe,1,False
+Liechtenstein,1,False
+Moldova,1,False
+Argentina,1,False
+Eritrea,1,False
+Equatorial Guinea,1,False
+Kazakhstan,1,False
+Belarus,1,False
+Trinidad and Tobago,1,False
+Tuvalu,1,False
+Comoros,1,False
+Mauritania,1,False
+Djibouti,1,False
+Andorra,1,False
+Mongolia,1,False
+Slovenia,1,False
+Nicaragua,1,False
+Suriname,1,False
+San Marino,1,False
+North Korea,1,False
+Monaco,1,False
+Georgia,1,False
+Panama,1,False
+Costa Rica,1,False
+Samoa,1,False
+Lithuania,1,False
+Thailand,1,False
+Iceland,1,False
+Paraguay,1,False
+Burkina Faso,1,False
+Venezuela,1,False
+Kosovo,1,False
+Greenland (Denmark),1,False
