@@ -296,7 +296,52 @@
       </p>
     </div>
   </div>
+  
+  <!--Acquisition subsection -->
+  <section class="section">
+  <div class="inner">
+    <h2>1. On The Manner of Acquisition</h2>
+    
+    <p class="lead" style="max-width: 68ch;">
+      Click on the cards below to find out what doesn’t add up in the statement below:<br><br>
+      <span style="color: var(--ink);">“The sculptures were removed legally by Lord Elgin from the Parthenon, as a permit from the governing authority in Greece was granted.”</span>
+    </p>
 
+    <div class="flip-card-grid">
+      
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          
+          <div class="flip-card-front">
+            <h3>1. Logical Fallacy</h3>
+            <div class="flip-hint">Click to flip ↺</div>
+          </div>
+          
+          <div class="flip-card-back">
+            <p>During the sculptures’ removal (1801-1805), Greece was under the Ottoman Empire’s rule. Arguing that the artefacts were legally obtained because the occupying force permitted it constitutes a logical fallacy that majorly lacks nuance.</p>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          
+          <div class="flip-card-front">
+            <h3>2. Disputed Fact</h3>
+            <div class="flip-hint">Click to flip ↺</div>
+          </div>
+          
+          <div class="flip-card-back">
+            <p>Turkey officially stated historians have not been able to find a ‘firman’ proving that the sale was legal, publicly rejecting the UK’s claim that Lord Elgin had received permission from Ottoman authorities for the removal.</p>
+          </div>
+          
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
   <!-- Timeline subsection -->
   <div class="timeline-subsection" style="max-width:var(--max); margin:0 auto; padding:clamp(40px,6vw,72px) var(--pad);">
     <h3 class="timeline-title">Timeline of Formal Repatriation Requests</h3>
@@ -537,5 +582,17 @@
 <!-- ─── SCRIPTS (ES modules) ─── -->
 <script type="module" src="./js/main.js"></script>
 
+<script>
+  // Find all flip cards on the page
+  const flipCards = document.querySelectorAll('.flip-card');
+
+  // Add a click listener to each one
+  flipCards.forEach(card => {
+    card.addEventListener('click', function() {
+      // Toggles the 'is-flipped' class on and off
+      this.classList.toggle('is-flipped');
+    });
+  });
+</script>
 </body>
 </html>
