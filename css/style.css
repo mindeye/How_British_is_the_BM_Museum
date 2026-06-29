@@ -752,7 +752,9 @@ a.highlight-card:hover img {
 #hero h1,
 #hero .lead,
 #hero p {
-  text-align: left;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .fact-row {
